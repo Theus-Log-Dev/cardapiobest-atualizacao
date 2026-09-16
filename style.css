@@ -1,0 +1,146 @@
+body {
+    background-color: #fff3d6;
+    color: #2B2118;
+}
+body {
+    margin: 0;
+    font-family: "Bree Serif", serif;
+    color: #C62828;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8E1B1B;
+    color: #FFF3D6;
+    padding: 22px 14px;
+}
+.texto1 {
+width: 10%;
+}
+.logo {
+    padding: 0px 15px;
+    width: 80px;
+    height: auto;
+}
+.imagem-bar {
+    width: 100%; 
+}
+.texto {
+    color: #FFF3D6;
+    font-size: 20px;
+    padding: 0px 10px;
+    display: flex;
+}
+.btn-navg{
+    display: flex;
+    color: #8E1B1B;
+    background-color: #FDFBD4;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 12px 22px;    
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn-navg:hover {
+    background-color: #2E4A2F;
+    color: #FFF3D6;
+}
+.sabores {
+    margin: 16px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 16px;
+}
+.pizzas {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.pizzas h2 {
+    color: #8E1B1B;
+    margin-top: 1px;
+    font-weight: bold;
+}
+.pizzas p {
+    margin-top: -15px;
+}
+.imagempizza {
+    border-radius: 8px;
+    display:inline;
+    width: 250px;
+    height: auto;
+    margin-top: 10px;
+}
+.refris {
+    margin: 16px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 16px;}
+
+    .refrigerantes {
+            text-align: center;
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);}
+
+.imagensrefrigerante {
+    display:inline;
+    align-items: center;
+    width: 200px;
+    height: auto;
+   border-radius: 8px;
+
+}
+.buttons button {
+    background-color: #2E4A2F;
+    color: #FFF3D6;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 11px 17px;
+    border-radius: 16px;
+}
+.buttons button:hover {
+    background-color: #fbfcfb;
+    color: #2E4A2F;
+}
+.carrinho {
+    position: fixed;
+    width: 300px;
+    height: 400px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2E4A2F;
+    color: #FFF3D6;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 12px;
+}
+.textinfo{
+    font-weight:normal;
+    font-size: 22px;
+}
+footer {
+    display:flex;
+    justify-content: between;
+    text-align: center;
+    font-size: 14px;
+    color: #2E4A2F;
+    padding: 22px;
+    align-items: center;
+    gap: 20px;
+}
+
