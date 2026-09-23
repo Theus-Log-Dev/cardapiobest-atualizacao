@@ -20,17 +20,23 @@
 <div class="bar">
        <img src="nav/bans.jpg" alt="Faça seu pedido" class="imagem-bar">
 </div>
+<div class="titulo">
+      <h1>Pizzas</h1>
+    </div>
     <div class="sabores" id="cardapio">
         <div class="pizzas"> 
             <img src="sabores/mussarela.jpg" alt="Pizza de Mussarela" class="imagempizza">
             <h2>Mussarela <br>R$ 26,00</h2>
             <p>Pizza de mussarela com <br> molho de tomate e orégano </p> 
-    <div class="buttons">
+       <div class="botoes">
+        <div class="buttons">
              <button onclick="adicionarPizza('Mussarela', 26)">
         Adicionar
-             </div>
-    </button>
-    </div>   
+            </button>
+        </div>
+        <a class="infos" href="sabor.html">Informações</a>
+        </div>
+    </div>
         <div class="pizzas">
             <img src="sabores/calabresa.jpg" alt="Pizza de Calabresa" class="imagempizza">
             <h2>Calabresa <br>R$ 27,00</h2>
@@ -103,6 +109,9 @@
     </button>
         </div>
     </div>
+    <div class="titulo">
+      <h1>Refrigerantes</h1>
+    </div>
     <div class="refris" id="refrigerantes">
         <div class="refrigerantes">
         <h2>Água Mineral 500ml <br> R$ 5,00</h2>
@@ -130,26 +139,19 @@
         Adicionar
              </div>
     </button>
-        </div>
+    </div>
         <div class="refrigerantes">
         <h2>Coca-Cola 2L <br> R$ 13,00</h2>
         <img src="refrigerantes/coca2.jpg" alt="Coca-Cola 2L" class="imagensrefrigerante">
+        <div class="botoes">
         <div class="buttons">
              <button onclick="adicionarPizza('Frango com Catupiry', 30)">
         Adicionar
-             </div>
-    </button>
+            </button>
+        </div>
+        <a class="infos" href="sabor.html">Informações</a>
         </div>
     </div>
-<section class="carrinho">
-    <h2>Seu pedido</h2>
-         <ul id="lista-carrinho">
-            </ul>
-        <p>Total: R$ <span id="total">0,00</span></p>
-    <h2>Informações do cliente</h2>
-    <label for="nome">Nome</label>
-    <input class="infotexto" id="nome" placeholder="Digite seu nome" >
-</section>
     <footer id="contato">
         <h2>Horário de funcionamento</h2>
         <p>18h às 22h</p>
